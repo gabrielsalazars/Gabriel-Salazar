@@ -1,0 +1,166 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav1 a{
+    padding-left: 1100px;
+    text-decoration: none; /* Quita el subrayado */
+    color: white; /* Cambia el color del enlace a blanco */
+}
+
+.nav1 a:hover {
+    text-decoration: underline; /* Agrega un subrayado cuando el mouse pasa por encima */
+    color: rgba(255, 157, 0, 0.909);
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 3%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s, cursor 0.2s;
+}
+
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.botones {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-right: 20px; /* Mismo padding a la derecha que el del logo */
+}
+
+.boton {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centrado {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centrado2 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* CSS */
+.button-58 {
+    align-items: center;
+    background-color: rgba(255, 157, 0, 0.909);
+    border: 2px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: rgba(255, 157, 0, 0.909);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-58:focus {
+    color: #fafafa;
+}
+
+.button-58:hover {
+    background-color: #f8f8f8;
+    color: rgba(255, 157, 0, 0.909);
+    ;
+}
+
+.button-58:active {
+    background-color: #fcfcfc;
+    fill: #06f;
+}
+
+@media (min-width: 768px) {
+    .button-58 {
+        min-width: 170px;
+    }
+}
+
+.portafolio {
+    width: 100%;
+}
+
+.portafolio h1{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 20%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+
+}
+
+.portafolio p{
+    color: rgb(234, 234, 234);
+    position: relative;
+    top: 20%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+
+}
